@@ -1,6 +1,7 @@
 import Header from "../../Section/Header/Header";
 import About from "../../Section/About/About";
 import Knowledge from "../../Components/Knowledge/Knowledge";
+import Services from "../../Section/Servieces/Services";
 
 
 const Home = () => {
@@ -11,7 +12,7 @@ const Home = () => {
             <Header />
             <Knowledge />
             <About />
-            <div className="h-screen"></div>
+            <Services />
         </div>
     );
 };

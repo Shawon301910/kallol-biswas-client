@@ -89,21 +89,21 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full sm:w-1/2 xl:w-[85%] ml-auto xl:mx-auto py-10 md:py-20 px-3 sm:px-10 xl:px-0">
+            <div className="w-full sm:w-1/2 xl:w-[90%] ml-auto xl:mx-auto py-10 md:py-20 px-3 sm:px-10 xl:px-0">
                 <div className="about-stats grid grid-cols-1 xl:grid-cols-4 grid-rows-4 xl:grid-rows-1 gap-2 sm:gap-5">
                     <div className="about-statsC flex flex-col justify-between items-center gap-4 sm:gap-5 bg-white/5 p-5">
                         <span className="text-3xl sm:text-4xl md:text-5xl text-pictonBlue"><GoProjectRoadmap /></span>
                         <p style={{ textShadow: "1px 1px 2px #38BDF8" }} className="text-xl sm:text-2xl md:text-3xl font-medium text-white">250 + Project</p>
                     </div>
-                    <div className="about-statsC flex flex-col justify-center items-center gap-4 sm:gap-5 bg-white/5 p-5">
+                    <div className="about-statsC flex flex-col justify-between items-center gap-4 sm:gap-5 bg-white/5 p-5">
                         <span className="text-3xl sm:text-4xl md:text-5xl text-pictonBlue"><FaStar /></span>
                         <p style={{ textShadow: "1px 1px 2px #38BDF8" }} className="text-xl sm:text-2xl md:text-3xl font-medium text-white">5 star review 160+</p>
                     </div>
-                    <div className="about-statsC flex flex-col justify-center items-center gap-4 sm:gap-5 bg-white/5 p-5">
+                    <div className="about-statsC flex flex-col justify-between items-center gap-4 sm:gap-5 bg-white/5 p-5">
                         <span className="text-3xl sm:text-4xl md:text-5xl text-pictonBlue"><GrUserManager /></span>
                         <p style={{ textShadow: "1px 1px 2px #38BDF8" }} className="text-xl sm:text-2xl md:text-3xl font-medium text-white">45 + Client</p>
                     </div>
-                    <div className="about-statsC flex flex-col justify-center items-center gap-4 sm:gap-5 bg-white/5 p-5">
+                    <div className="about-statsC flex flex-col justify-between items-center gap-4 sm:gap-5 bg-white/5 p-5">
                         <span className="text-3xl sm:text-4xl md:text-5xl text-pictonBlue"><FaFlag /></span>
                         <p style={{ textShadow: "1px 1px 2px #38BDF8" }} className="text-xl sm:text-2xl md:text-3xl font-medium text-white">20 + Country</p>
                     </div>
