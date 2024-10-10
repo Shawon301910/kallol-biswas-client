@@ -18,7 +18,7 @@ const Services = () => {
                 trigger: servicesRef.current,
                 pin: true,
                 start: "-20% top",
-                end: "+=1500",
+                end: "+=3000",
                 scrub: .5
             }
         })

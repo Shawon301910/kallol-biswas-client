@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainLayout from "./MainLayout";
 import Home from "./Pages/Home/Home";
 import AuthProvider from "./Provider/AuthProvider";
+import 'lenis/dist/lenis.css'
 import "./index.css";
 
 const router = createBrowserRouter([

@@ -10,11 +10,7 @@ const AuthProvider = ({ children }) => {
     const [directionDev, setDirectionDev] = useState("down");
 
     useEffect(() => {
-        const lenis = new Lenis({
-            lerp: 0.3,
-            duration: 1,
-            easing: (t) => Math.sin((t * Math.PI) / 2),
-        });
+        const lenis = new Lenis();
 
         lenis.on("scroll", (e) => {
             if (e.direction === 1) {

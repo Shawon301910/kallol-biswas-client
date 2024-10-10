@@ -18,14 +18,14 @@ const About = () => {
     const aboutHeading = useRef(null);
 
     useGSAP(() => {
-        const text = new SplitType("#about-text", { types: 'chars' });
+        const text = new SplitType("#about-text", { types: 'aboutChars' });
 
         const aboutTL = gsap.timeline({
             scrollTrigger: {
                 trigger: aboutBody.current,
                 start: "-20% center",
                 end: "+=950",
-                scrub: true
+                scrub: .5
             }
         })
 
